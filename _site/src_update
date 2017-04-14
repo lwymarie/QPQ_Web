@@ -1,6 +1,0 @@
-#! /bin/csh
-cd ..
-#rsync -uarvz imps unix1:/usr/local/www2
-#rsync -uarvz QPQ_Web /raid/Web 
-rsync -uarvz QPQ_Web ssh.ucolick.org:/san/xmen/greymalkin/raid/Web
-cd QPQ_Web
