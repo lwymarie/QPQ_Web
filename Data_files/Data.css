@@ -159,6 +159,28 @@
     background: transparent;
     opacity: 1.00;
 }
+a {
+    color: rgb(255, 255, 255);
+    text-decoration: underline;
+}
+a:visited {
+    color: rgb(255, 251, 0);
+    text-decoration: underline;
+}
+a.class3 {
+    color: rgb(255, 255, 255);
+    text-decoration: underline;
+}
+a.class3:visited {
+    color: rgb(255, 251, 0);
+}
+a.class3:hover {
+    color: rgb(255, 126, 121);
+}
+a:hover {
+    color: rgb(221, 221, 221);
+    text-decoration: underline;
+}
 .bumper {
     font-size: 1px;
     line-height: 1px;
